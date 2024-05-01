@@ -36,9 +36,6 @@ mod tests {
 
     #[test]
     fn test_read_data() {
-        // Simulate reading data. This would normally require a test CSV file, or mocking the file reading.
-        // Here, we'll assume it reads correctly formatted data for simplicity, as mocking file I/O in Rust
-        // without external libraries is non-trivial and often not done.
         assert!(read_data().is_ok());
     }
 
